@@ -1,0 +1,75 @@
+body {
+    /* background-color: black; */
+    font-family: sans-serif;
+
+}
+
+h1 {
+    color: rgb(25, 150, 155);
+}
+
+.card {
+    /* background-color: rgb(243, 239, 239); */
+    /* background-color: rgb(68, 65, 65); */
+
+    margin: 15px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.avatar_img {
+    width: 100px;
+    margin: 30px 20px 0 0;
+    border-radius: 50%;
+    /* border: 7px solid #fff; */
+    width: 120px;
+    height: 120px;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+
+button {
+    background-color: rgb(97, 209, 212);
+    border-radius: 12px;
+    border: 0px solid gray;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.supportBubbleDiv {
+    background-color: aqua;
+}
+/* 
+.red {
+    background-color: red;
+} */
+
+.bioText {
+    color: black;
+    margin: 0 1em 1em 1em;
+    font-size: .9em;
+}
+
+.bootcampGrad {
+    background-color: rgb(138, 199, 164);
+}
